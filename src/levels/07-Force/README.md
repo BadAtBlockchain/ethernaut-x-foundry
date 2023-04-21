@@ -4,11 +4,11 @@
 
 **Original Level**
 
-https://ethernaut.openzeppelin.com/level/0xF781b45d11A37c51aabBa1197B61e6397aDf1f78
+https://ethernaut.openzeppelin.com/level/0x46f79002907a025599f355A04A512A6Fd45E671B
 
 ## Challenge Rules
 
-Goal: Force a contract to receive ether despite it trying not to
+Goal: Force a contract to receive ether despite it not wanting it
 
 ## Walkthrough Notes
 
