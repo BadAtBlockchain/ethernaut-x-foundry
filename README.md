@@ -10,7 +10,7 @@ https://ethernaut.openzeppelin.com/
 
 https://github.com/foundry-rs/foundry
 
-**Mix Match of...**
+**Mix Match of... (but my own solutions/notes ofc)**
 
 https://github.com/0xEval/ethernaut-x-foundry
 
