@@ -1,14 +1,14 @@
-# 12. Privacy
+# 13. GatekeeperOne
 
 **NOTE** - Some code has been slightly altered to work with newer versions of solidity and enable us to test the level with foundry. Any where this has been done an accompanying comment gives context for why this change was made. 
 
 **Original Level**
 
-https://ethernaut.openzeppelin.com/level/0xcAac6e4994c2e21C5370528221c226D1076CfDAB
+https://ethernaut.openzeppelin.com/level/0x2a2497aE349bCA901Fea458370Bd7dDa594D1D69
 
 ## Challenge Rules
 
-Goal: Unlock the contract
+Goal: Become an entrant
 
 ## Walkthrough Notes
 
@@ -17,5 +17,5 @@ W.I.P
 ## Foundry Test
 
 ```
-forge test --match-contract PrivacyTest -vvvv
+forge test --match-contract GatekeeperOneTest -vvvv
 ```
