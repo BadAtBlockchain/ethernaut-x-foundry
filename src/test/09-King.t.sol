@@ -39,7 +39,7 @@ contract KingTest is DSTest {
     vm.deal(attacker, 1 ether); // fund our attacker contract with 1 ether
   }
 
-  function testVaultHack() public {
+  function testKingHack() public {
     //--------------------------------------------------------------------------------
     //                             Setup Level Instance
     //--------------------------------------------------------------------------------
