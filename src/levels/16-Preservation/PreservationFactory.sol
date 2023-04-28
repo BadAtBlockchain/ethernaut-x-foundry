@@ -4,18 +4,17 @@ pragma solidity ^0.8.10;
 
 import '../../core/BaseLevel.sol';
 import './Preservation.sol';
-import './PreservationAttack.sol';
 
 contract PreservationFactory is Level {
     function createInstance(address _player) override public payable returns (address) {
         _player;
 
-        PreservationAttack attack1 = new PreservationAttack();
-        PreservationAttack attack2 = new PreservationAttack();
+        LibraryContract lib1 = new LibraryContract();
+        LibraryContract lib2 = new LibraryContract();
 
         Preservation instance = new Preservation(
-            address(attack1), 
-            address(attack2)
+            address(lib1), 
+            address(lib2)
         );
         return address(instance);
     }

